@@ -1,0 +1,220 @@
+.menu{
+    width: 100%;
+    height: 95px;
+    color: white;
+    padding: 10px;
+}
+.menu a:hover{
+    color: black;
+}
+.first-p{
+    display: inline-block;
+    color: black;
+    padding-left:50px;
+}
+.category-link{
+    color: grey;
+    text-decoration: none;
+    margin-right:60px;
+    float: right;
+    padding-top: 25px;
+    font-size: 13px;
+}
+.main {
+	width: 100%;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.banner {
+	width: 100%;
+	height: 845px;
+    background: url(pics/lawyer.jpg) no-repeat center center;
+	position: relative;
+}
+
+.banner-con {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 1100px;
+	height: 100%;
+}
+
+.banner-form {
+	background-color: #0f3e5a;
+	width: 350px;
+	height: 440px;
+	position: absolute;
+	top: 170px;
+	left: 0;
+	padding-left: 40px;
+	padding-top: 50px;
+	padding-right: 105px;
+	box-sizing: border-box;
+}
+
+.banner-form .banner-form-tip {
+	font-size: 12px;
+    font-family:'Montserrat',sans-serif;
+	color: #eeeeee;
+}
+
+.banner-form-ltalics {
+	color: #e4e156;
+	font-weight: bold;
+	font-size: 12px;
+	font-style: italic;
+	display: block;
+	margin-top: 45px;
+}
+
+.sign-box>input {
+	border: none;
+	outline: none;
+	width: 270px;
+	height: 45px;
+	color: #666;
+	padding-left: 10px;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+
+.sign-box>button {
+	border: none;
+	outline: none;
+	width: 146px;
+	height: 40px;
+	background-color: #f8dd38;
+	margin-top: 26px;
+	font-size: 11px;
+	color: #333;
+    font-family:'Montserrat',sans-serif;
+}
+.article {
+	position: relative;
+	margin: 0 auto;
+	width: 1200px;
+	height: 390px; 
+}
+
+.article>ul {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: space-between;
+}
+
+.article>ul>li{
+	flex: 1;
+	box-sizing: border-box;
+	padding-right: 100px;
+	padding-top: 120px;
+	overflow: hidden;
+}
+.article>ul>li>p{
+	margin-top:20px;
+	font-size: 11px;
+	color: rgb(92, 91, 91); 
+}
+.text1{
+    width: 100%;
+    height: 300px;
+    background: rgb(240, 238, 238);
+    text-align: center;
+    position: relative;
+}
+.text2{
+    position: absolute;
+    padding-top: 120px;
+    padding-left: 420px;
+}
+.text3{
+    position: relative;
+    width: 100%;
+    height: 850px;
+    z-index: 1;
+}
+.text4{
+    position: absolute;
+    padding-top: 60px;
+    padding-left: 650px;
+}
+.text5_1{
+    text-align: center;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 200px;
+    width: 300px;
+    height: 500px;
+    background: url(pics/grid.png) white;
+}
+.text5_2{
+    text-align: center;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 600px;
+    width: 300px;
+    height: 500px;
+    background: url(pics/grid.png) white;
+}
+.text5_3{
+    text-align: center;
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 1000px;
+    width: 300px;
+    height: 500px;
+    background: url(pics/grid.png) white;
+}
+.bg{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 850px;
+    background: url(pics/glasses.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -o-background-size: cover;                
+    background-size: cover; 
+    filter: grayscale(100%);
+    opacity: 0.5;
+}
+.text6{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 470px;
+    background: url(pics/notebook.jpg) no-repeat center center;
+    max-width:1500px;
+    max-height:983px;
+    background-color: #0f6292;
+    background-blend-mode: multiply;
+}
+.text6_1{
+    position: absolute;
+    padding-top: 140px;
+    padding-left: 520px;
+}
+.text7{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #071d29;
+}
+.text7_1{
+    position: absolute;
+    padding-top: 80px;
+    padding-left: 580px;
+}
+.icon{
+    position: absolute;
+    padding-top: 170px;
+    padding-left: 580px;
+}
+.icon>a>img{
+    padding:0 15px;
+    background-color:#071d29 ;
+    background-blend-mode: multiply;
+}
