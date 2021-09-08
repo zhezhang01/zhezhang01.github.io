@@ -288,10 +288,10 @@ body,html{
 
 .icon{
     position: absolute;
-    padding-top: 170px;
+    padding-top: 150px;
     padding-left: 0px;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-55%);
 } 
 .icon ul{
 	display: flex;
@@ -302,7 +302,7 @@ body,html{
 	list-style-type: none;
 }
 .icon ul li a img{
-	width: 27px;
+	width: 33px;
 }   
 .text6 { 
     height: 535px; 
